@@ -31,7 +31,24 @@ hr {
 nav {
         text-align: center;
         margin: 20px 0;
-        background-color: #b3ecd4;
+        font-size: 22px;
+}
+
+nav a {
+        text-decoration: none;
         color: black;
-        font-family: "Arial", sans-serif;
+        font-size: 22px;
+        margin: 0 20px;
+}
+
+nav a:hover {
+        color: rgb(60, 86, 233);
+        text-decoration: underline;
+}
+
+footer {
+        text-align: center;
+        padding: 20px;
+        color: rgb(245, 65, 65);
+        font-size: 18px;
 }
