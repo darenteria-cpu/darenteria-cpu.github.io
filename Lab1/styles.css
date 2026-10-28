@@ -1,13 +1,13 @@
 body {
         margin: 0;
-        background-color: #8cf7ca;
+        background-color: #b3ecd4;
         color: black;
         font-family: "Arial", sans-serif;
 }
 
 header {
         text-align: center;
-        padding: 60px 20px;
+        padding: 40px 20px;
 }
 
 header h1 {
@@ -26,4 +26,12 @@ hr {
         border: none;
         border-top: 2px solid black;
         margin: 0;
+}
+
+nav {
+        text-align: center;
+        margin: 20px 0;
+        background-color: #b3ecd4;
+        color: black;
+        font-family: "Arial", sans-serif;
 }
