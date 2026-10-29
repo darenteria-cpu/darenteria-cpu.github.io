@@ -46,9 +46,34 @@ nav a:hover {
         text-decoration: underline;
 }
 
+main {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 40px;                 
+    padding: 40px 20px;
+}
+
+.profile {
+    width: 250px;
+    border-radius: 10px;       
+}
+
+.welcome {
+    max-width: 450px;          
+    text-align: center;
+    font-size: 18px;
+}
+
 footer {
         text-align: center;
         padding: 20px;
         color: rgb(245, 65, 65);
-        font-size: 18px;
+        font-size: 14px;
+}
+
+.logo {
+        text-align: center;
+        width: 75px;
+        margin-top: 5px;
 }
