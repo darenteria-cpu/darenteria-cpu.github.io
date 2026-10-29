@@ -76,7 +76,6 @@ main {
     font-size: 18px;
 }
 
-
 .Csharp {
     display: block;
     padding: 40px 20px;
@@ -84,7 +83,31 @@ main {
 
 figure {
     text-align: center;
+    width: 250px;
+    height: auto;
     margin: 20px auto;
+}
+
+details {
+    border: 1px solid #2c8a01;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 15px auto;
+    max-width: 600px;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: rgb(133, 98, 3);
+}
+
+details[open] summary {
+    margin-bottom: 10px;
 }
 
 /*
