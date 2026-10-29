@@ -81,6 +81,11 @@ main {
     padding: 40px 20px;
 }
 
+.sql {
+    display: block;
+    padding: 40px 20px;
+}
+
 figure {
     text-align: center;
     margin: 20px auto;
@@ -88,6 +93,11 @@ figure {
 
 figure img {
     width: 250px;
+    height: auto;
+}
+
+figure img.wide {
+    width: 350px;
     height: auto;
 }
 
