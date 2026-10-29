@@ -65,6 +65,39 @@ main {
     font-size: 18px;
 }
 
+.about {
+    display: block;
+    padding: 40px 20px;
+}
+
+table {
+    margin: 0 auto 40px auto;
+    font-size: 20px;
+}
+
+th {
+    background-color: #430053;
+    color: rgb(251, 255, 0);
+    padding: 4px 6px;
+}
+
+td {
+    background-color: #753592;
+    color: white;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+.hobbies {
+    max-width: 500px;
+    margin: 0 auto;     
+    text-align: left;
+}
+
+.label {
+    color: #1b086e;
+}
+
 footer {
         text-align: center;
         padding: 20px;
@@ -74,6 +107,6 @@ footer {
 
 .logo {
         text-align: center;
-        width: 75px;
+        width: 100px;
         margin-top: 5px;
 }
