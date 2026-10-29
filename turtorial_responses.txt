@@ -1,0 +1,87 @@
+Guided Lab: Personal Portfolio
+Checkpoint Responses
+
+Downloaded: 10/26/2026, 4:02:31 PM
+
+Lesson 1: Plan the portfolio
+Question:
+No checkpoint question for this lesson.
+
+Student response:
+[No response saved]
+
+----------------------------------------
+
+Lesson 2: Create the Home Page
+Question:
+Is <div> a semantic element? Why or why not?
+
+Student response:
+No.  It is a generic container that says nothing about what its content is or what it's for.  It is just a "block of something" in the eyes of a browser, screen reader, or search engine.
+
+----------------------------------------
+
+Lesson 3: Add Home Page Content
+Question:
+Is the footer optional in all assignments and exams?
+
+Student response:
+No.  They are mandatory and the example is given below.
+
+<footer>
+  <p>&copy; Year Your Name. All rights reserved.</p>
+  <p>This site is for academic purposes only.</p>
+  <p>CST 336 Internet Programming.</p>
+  <!-- Display CSUMB logo here -->
+</footer>
+
+----------------------------------------
+
+Lesson 4: Add External Stylesheet
+Question:
+Why is an external stylesheet usually easier to maintain than many inline styles?
+
+Student response:
+Its easier to update an external stylesheet.  You just have to change one rule in the file and the change applies to every element, unlike internal which you have to change each element individually.
+
+----------------------------------------
+
+Lesson 5: Style Home Page
+Question:
+Examine the code below. What to do to display the content of both div elements next to each other?
+
+Student response:
+Make the parent section a flex container.
+
+section {
+  display: flex;
+}
+
+----------------------------------------
+
+Lesson 6: Create the About page
+Question:
+Explain the difference between an ID selector and a class selector in CSS. When would you use each one?
+
+Student response:
+ID selector targets one specific element.  Class selector targets a group of elements.
+
+----------------------------------------
+
+Lesson 7: Create the Contact page
+Question:
+What information does the title attribute provide when an iframe embeds a contact form?
+
+Student response:
+Title attribute provides a short text label that describes what the iframe contains
+
+----------------------------------------
+
+Lesson 8: Use online fonts
+Question:
+Why should decorative online fonts usually be limited to headings instead of all body text?
+
+Student response:
+Hard to read and tiring on the eyes.
+
+----------------------------------------
