@@ -123,6 +123,10 @@ footer {
         font-size: 14px;
 }
 
+footer p {
+    margin: 4px 0;
+}
+
 .logo {
         text-align: center;
         width: 225px;
