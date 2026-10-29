@@ -55,6 +55,11 @@ nav a:hover {
     to   { background-position: 200% center; }
 }
 
+nav a.active {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
 main {
     display: flex;
     justify-content: center;   
