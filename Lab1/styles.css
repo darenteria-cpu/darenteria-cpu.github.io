@@ -1,0 +1,134 @@
+body {
+        margin: 0;
+        background-color: #b3ecd4;
+        color: black;
+        font-family: "Arial", sans-serif;
+}
+
+header {
+        text-align: center;
+        padding: 40px 20px;
+}
+
+header h1 {
+        margin: 0;
+        font-family: "Georgia", serif;
+        font-size: 48px;
+}
+
+hr {
+        border: none;
+        border-top: 2px solid black;
+        margin: 0;
+}
+
+nav {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 22px;
+}
+
+nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        margin: 0 20px;
+}
+
+nav a:hover {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+    from { background-position: 0% center; }
+    to   { background-position: 200% center; }
+}
+
+nav a.active {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 40px;                 
+    padding: 40px 20px;
+}
+
+.profile {
+    width: 250px;
+    border-radius: 10px;       
+}
+
+.welcome {
+    max-width: 450px;          
+    text-align: center;
+    font-size: 18px;
+}
+
+.about {
+    display: block;
+    padding: 40px 20px;
+}
+
+table {
+    margin: 0 auto 40px auto;
+    font-size: 20px;
+}
+
+th {
+    background-color: #430053;
+    color: rgb(251, 255, 0);
+    padding: 4px 6px;
+}
+
+td {
+    background-color: #753592;
+    color: white;
+    text-align: center;
+    padding: 4px 6px;
+}
+
+.hobbies {
+    max-width: 500px;
+    margin: 0 auto;     
+    text-align: left;
+}
+
+.label {
+    color: #190281;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact iframe {
+    max-width: 100%;   
+}
+
+footer {
+        text-align: center;
+        padding: 20px;
+        color: rgb(245, 65, 65);
+        font-size: 14px;
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+.logo {
+        text-align: center;
+        width: 225px;
+        margin-top: 5px;
+}
