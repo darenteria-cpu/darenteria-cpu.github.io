@@ -95,7 +95,17 @@ td {
 }
 
 .label {
-    color: #1b086e;
+    color: #190281;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact iframe {
+    max-width: 100%;   
 }
 
 footer {
@@ -107,6 +117,6 @@ footer {
 
 .logo {
         text-align: center;
-        width: 100px;
+        width: 150px;
         margin-top: 5px;
 }
