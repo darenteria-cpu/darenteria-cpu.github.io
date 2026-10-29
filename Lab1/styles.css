@@ -16,12 +16,6 @@ header h1 {
         font-size: 48px;
 }
 
-header p {
-        margin-top: 10px;
-        color: black;
-        font-size: 24px;
-}
-
 hr {
         border: none;
         border-top: 2px solid black;
