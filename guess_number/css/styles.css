@@ -1,0 +1,146 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 32px 16px;
+    background-color: #eef2f7;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header {
+    max-width: 480px;
+    margin: 0 auto 24px;
+    padding: 16px 24px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 8px;
+    color: #1e3a8a;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 0;
+    color: #4b5563;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header + br {
+    display: none;
+}
+
+#main {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#main > div {
+    margin-top: 12px;
+}
+
+#playerGuess {
+    padding: 8px;
+    border: 2px solid #9ca3af;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#playerGuess:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 2px;
+}
+
+#guessBtn {
+    background-color: #2563eb;
+}
+
+#guessBtn:hover {
+    background-color: #1d4ed8;
+}
+
+#resetBtn {
+    margin-top: 12px;
+    background-color: #15803d;
+}
+
+#resetBtn:hover {
+    background-color: #166534;
+}
+
+#feedback {
+    min-height: 27px;
+    font-weight: bold;
+}
+
+#attemptsLeft {
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+#wins {
+    color: #15803d;
+    font-weight: bold;
+}
+
+#losses {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+#guesses {
+    color: #4b5563;
+    font-style: italic;
+}
+
+::selection {
+    background-color: #bfdbfe;
+}
+
+/* Smaller title on phones */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+}
