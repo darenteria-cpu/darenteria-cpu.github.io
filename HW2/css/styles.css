@@ -38,3 +38,27 @@ body {
 #totalScore {
   font-weight: 700;
 }
+
+/* Footer (same as Lab1) */
+hr {
+  border: none;
+  border-top: 2px solid black;
+  margin: 0;
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: rgb(245, 65, 65);
+  font-size: 14px;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+.logo {
+  width: 225px;
+  margin-top: 5px;
+}
