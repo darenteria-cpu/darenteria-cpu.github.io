@@ -162,3 +162,10 @@ footer {
 footer a {
   color: #97ce4c;
 }
+
+.logo {
+        text-align: center;
+        width: 225px;
+        margin-top: 5px;
+}
+
