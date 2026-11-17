@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty Character Finder</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Rick and Morty Character Finder</h1>
+    <p class="subtitle">Search the multiverse by name and species</p>
+  </header>
+
+  <main>
+    <form id="search-form" novalidate>
+      <div class="form-group">
+        <label for="name">Character name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Rick, Morty, Summer">
+        <span class="error" id="name-error"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="species">Species</label>
+        <select id="species" name="species">
+          <option value="">Any species</option>
+          <option value="Human">Human</option>
+          <option value="Alien">Alien</option>
+          <option value="Humanoid">Humanoid</option>
+          <option value="Robot">Robot</option>
+          <option value="Animal">Animal</option>
+          <option value="Cronenberg">Cronenberg</option>
+          <option value="Mythological Creature">Mythological Creature</option>
+          <option value="Poopybutthole">Poopybutthole</option>
+          <option value="Disease">Disease</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </div>
+
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+
+    <p id="status" class="status"></p>
+    <section id="results" class="results"></section>
+    <button type="button" id="load-more" class="load-more" hidden>Load more</button>
+  </main>
+
+  <footer>
+    Data from <a href="https://rickandmortyapi.com/" target="_blank" rel="noopener">The Rick and Morty API</a>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
